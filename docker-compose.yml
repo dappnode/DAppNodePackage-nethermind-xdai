@@ -4,7 +4,7 @@ services:
     build:
       context: ./build
       args:
-        UPSTREAM_VERSION: 1.11.4
+        UPSTREAM_VERSION: 1.12.0
     image: "nethermind-xdai.dnp.dappnode.eth:1.0.0"
     restart: unless-stopped
     volumes:
