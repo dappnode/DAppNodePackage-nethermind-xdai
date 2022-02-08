@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mgarciate/DAppNodePackage-nethermind-xdai.git"
+    "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai.git"
   },
   "bugs": {
-    "url": "https://github.com/mgarciate/DAppNodePackage-nethermind-xdai/issues"
+    "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai/issues"
   },
   "license": "GPL-3.0"
 }
