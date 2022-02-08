@@ -19,6 +19,18 @@
     "endpoint": "http://nethermind-xdai.dappnode:8545",
     "homepage": "https://github.com/mgarciate/DAppNodePackage-nethermind-xdai#readme"
   },
+  "exposable": [
+    {
+      "name": "Nethermind xDai JSON RPC",
+      "description": "JSON RPC endpoint for Nethermind xDai",
+      "port": 8545
+    },
+    {
+      "name": "Nethermind xDai Websocket",
+      "description": "JSON RPC endpoint for Nethermind xDai",
+      "port": 8546
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mgarciate/DAppNodePackage-nethermind-xdai.git"
