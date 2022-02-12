@@ -21,14 +21,20 @@
   },
   "exposable": [
     {
-      "name": "Nethermind xDai JSON RPC",
-      "description": "JSON RPC endpoint for Nethermind xDai",
-      "port": 8545
+      "name": "Nethermind Gnosis Chain (xDai) JSON RPC",
+      "port": 8545,
+      "fromSubdomain": "nethermind-xdai",
+      "dnpName": "nethermind-xdai.dappnode.eth",
+      "serviceName": "nethermind-xdai.dappnode.eth",
+      "description": "JSON RPC endpoint for Nethermind Gnosis Chain (xDai)"
     },
     {
-      "name": "Nethermind xDai Websocket",
-      "description": "JSON RPC endpoint for Nethermind xDai",
-      "port": 8546
+      "name": "Nethermind Gnosis Chain (xDai) WS",
+      "port": 8546,
+      "fromSubdomain": "nethermind-xdai",
+      "dnpName": "nethermind-xdai.dappnode.eth",
+      "serviceName": "nethermind-xdai.dappnode.eth",
+      "description": "Websocket endpoint for Nethermind Gnosis Chain (xDai)"
     }
   ],
   "repository": {
