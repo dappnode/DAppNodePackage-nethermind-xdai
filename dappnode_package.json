@@ -19,24 +19,6 @@
     "endpoint": "http://nethermind-xdai.dappnode:8545",
     "homepage": "https://github.com/mgarciate/DAppNodePackage-nethermind-xdai#readme"
   },
-  "exposable": [
-    {
-      "name": "Nethermind Gnosis Chain (xDai) JSON RPC",
-      "port": 8545,
-      "fromSubdomain": "nethermind-xdai",
-      "dnpName": "nethermind-xdai.dappnode.eth",
-      "serviceName": "nethermind-xdai.dappnode.eth",
-      "description": "JSON RPC endpoint for Nethermind Gnosis Chain (xDai)"
-    },
-    {
-      "name": "Nethermind Gnosis Chain (xDai) WS",
-      "port": 8546,
-      "fromSubdomain": "nethermind-xdai",
-      "dnpName": "nethermind-xdai.dappnode.eth",
-      "serviceName": "nethermind-xdai.dappnode.eth",
-      "description": "Websocket endpoint for Nethermind Gnosis Chain (xDai)"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai.git"
