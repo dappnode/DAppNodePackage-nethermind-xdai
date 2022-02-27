@@ -28,7 +28,8 @@
     {
       "name": "Nethermind Gnosis Chain (xDai) WS",
       "port": 8546,
-      "description": "Websocket endpoint for Nethermind Gnosis Chain (xDai)"
+      "description": "Websocket endpoint for Nethermind Gnosis Chain (xDai)",
+      "fromSubdomain": "nethermind-xdai-ws"
     }
   ],
 
