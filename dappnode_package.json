@@ -31,6 +31,7 @@
       "description": "Websocket endpoint for Nethermind Gnosis Chain (xDai)"
     }
   ],
+
   "repository": {
     "type": "git",
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai.git"
