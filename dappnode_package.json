@@ -23,13 +23,11 @@
     {
       "name": "Nethermind Gnosis Chain (xDai) JSON RPC",
       "port": 8545,
-      "serviceName": "DAppNodePackage-nethermind-xdai.dnp.dappnode.eth",
       "description": "JSON RPC endpoint for Nethermind Gnosis Chain (xDai)"
     },
     {
       "name": "Nethermind Gnosis Chain (xDai) WS",
       "port": 8546,
-      "serviceName": "DAppNodePackage-nethermind-xdai.dnp.dappnode.eth",
       "description": "Websocket endpoint for Nethermind Gnosis Chain (xDai)"
     }
   ],
