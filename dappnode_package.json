@@ -24,7 +24,7 @@
       "name": "Nethermind Gnosis Chain (xDai) JSON RPC",
       "port": 8545,
       "description": "JSON RPC endpoint for Nethermind Gnosis Chain (xDai)"
-    },
+    }
   ],
   "repository": {
     "type": "git",
