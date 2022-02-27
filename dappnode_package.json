@@ -22,9 +22,11 @@
   "exposable": [
     {
       "name": "Nethermind Gnosis Chain (xDai) JSON RPC",
-      "port": 8545,
-      "serviceName": "DAppNodePackage-nethermind-xdai.dnp.dappnode.eth",
-      "description": "JSON RPC endpoint for Nethermind Gnosis Chain (xDai)"
+      "description": "JSON RPC endpoint for Nethermind Gnosis Chain (xDai)",
+      "fromSubdomain": "nethermind-xdai-dappnode-eth-nethermind-xdai",
+      "dnpName": "nethermind-xdai.dnp.dappnode.eth",
+      "serviceName": "nethermind-xdai.dappnode.eth",
+      "port": 8545
     },
     {
       "name": "Nethermind Gnosis Chain (xDai) WS",
