@@ -7,6 +7,8 @@ services:
         UPSTREAM_VERSION: 1.13.1
     image: "nethermind-xdai.dnp.dappnode.eth:1.0.0"
     restart: unless-stopped
+    security_opt:
+      - "seccomp:unconfined"
     volumes:
       - "data:/data"
     environment:
