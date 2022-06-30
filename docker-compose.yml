@@ -4,7 +4,7 @@ services:
     build:
       context: ./build
       args:
-        UPSTREAM_VERSION: 1.13.3
+        UPSTREAM_VERSION: 1.13.4
     image: "nethermind-xdai.dnp.dappnode.eth:1.0.0"
     restart: unless-stopped
     security_opt:
@@ -17,11 +17,11 @@ services:
       NETHERMIND_JSONRPCCONFIG_ENABLED: "true"
       NETHERMIND_JSONRPCCONFIG_HOST: 0.0.0.0
       NETHERMIND_INITCONFIG_WEBSOCKETSENABLED: "true"
-      EXTRA_OPTS: null
+      NETHERMIND_NETWORKCONFIG_DISCOVERYPORT: 30404
+      NETHERMIND_NETWORKCONFIG_P2PPORT: 30404
+      EXTRA_OPTS: ""
     ports:
-      - 30303/tcp
-      - 30303/udp
-      - 30304/tcp
-      - 30304/udp
+      - 30404:30404/tcp
+      - 30404:30404/udp
 volumes:
   data: {}
