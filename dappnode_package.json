@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai/issues"
   },
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.56"
+  }
+
 }
