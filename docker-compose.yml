@@ -23,5 +23,13 @@ services:
     ports:
       - "31404:31404/tcp"
       - "31404:31404/udp"
+    ulimits:
+      nofile:
+        soft: 1000000
+        hard: 1000000
+    deploy:
+      resources:
+        limits:
+          memory: 16384M
 volumes:
   data: {}
