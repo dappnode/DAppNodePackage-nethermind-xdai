@@ -17,20 +17,11 @@ services:
       NETHERMIND_JSONRPCCONFIG_ENABLED: "true"
       NETHERMIND_JSONRPCCONFIG_HOST: 0.0.0.0
       NETHERMIND_INITCONFIG_WEBSOCKETSENABLED: "true"
-      NETHERMIND_NETWORKCONFIG_DISCOVERYPORT: 30404
-      NETHERMIND_NETWORKCONFIG_P2PPORT: 30404
-      EXTRA_OPTS: ""
+      EXTRA_OPTS: null
     ports:
-      - 30404:30404/tcp
-      - 30404:30404/udp
-    ulimits:
-      nofile:
-        soft: 1000000
-        hard: 1000000
-    deploy:
-      resources:
-        limits:
-          memory: 16384M
-
+      - 30303/tcp
+      - 30303/udp
+      - 30304/tcp
+      - 30304/udp
 volumes:
   data: {}
