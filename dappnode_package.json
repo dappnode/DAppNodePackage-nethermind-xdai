@@ -12,6 +12,20 @@
   "contributors": [
     "mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"
   ],
+  "exposable": [
+      {
+        "name": "Nethermind xDai JSON RPC",
+        "description": "JSON RPC endpoint for Nethermind xDai",
+        "serviceName": "nethermind",
+        "port": 8545
+      },
+      {
+        "name": "Nethermind xDai JSON RPC (WS)",
+        "description": "JSON RPC WebSocket endpoint for Nethermind xDai",
+        "serviceName": "nethermind",
+        "port": 8546
+      }
+    ],
   "upstreamRepo": "NethermindEth/nethermind",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Blockchain"],
