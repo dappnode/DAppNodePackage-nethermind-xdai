@@ -9,28 +9,27 @@
   "dependencies": {},
   "chain": "ethereum",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
-  "contributors": [
-    "mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"
-  ],
+  "contributors": ["mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"],
   "exposable": [
-      {
-        "name": "Nethermind xDai JSON RPC",
-        "description": "JSON RPC endpoint for Nethermind xDai",
-        "serviceName": "nethermind",
-        "port": 8545
-      },
-      {
-        "name": "Nethermind xDai JSON RPC (WS)",
-        "description": "JSON RPC WebSocket endpoint for Nethermind xDai",
-        "serviceName": "nethermind",
-        "port": 8546
-      }
-    ],
+    {
+      "name": "Nethermind xDai JSON RPC",
+      "description": "JSON RPC endpoint for Nethermind xDai",
+      "serviceName": "nethermind",
+      "port": 8545
+    },
+    {
+      "name": "Nethermind xDai JSON RPC (WS)",
+      "description": "JSON RPC WebSocket endpoint for Nethermind xDai",
+      "serviceName": "nethermind",
+      "port": 8546
+    }
+  ],
   "upstreamRepo": "NethermindEth/nethermind",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Blockchain"],
   "links": {
-    "endpoint": "http://nethermind-xdai.dappnode:8545",
+    "api": "http://nethermind-xdai.dappnode:8545",
+    "api-engine": "http://nethermind-xdai.dappnode:8511",
     "homepage": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai#readme"
   },
   "repository": {
