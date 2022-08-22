@@ -1,7 +1,7 @@
 {
   "name": "nethermind-xdai.dnp.dappnode.eth",
   "version": "1.0.0",
-  "upstreamVersion": "1.13.6",
+  "upstreamVersion": "1.14.0",
   "shortDescription": "Nethermind xDai client",
   "description": "Nethermind - The world’s fastest xDai .NET Client and P2P Data Marketplace for the decentralised future\nOur flagship .NET Core-based xDai client is all about performance and flexibility. We have built a lean, stable and feature-rich gateway to allow anyone, anywhere, to take part in the decentralised future.",
   "type": "service",
@@ -13,19 +13,19 @@
     "mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"
   ],
   "exposable": [
-      {
-        "name": "Nethermind xDai JSON RPC",
-        "description": "JSON RPC endpoint for Nethermind xDai",
-        "serviceName": "nethermind",
-        "port": 8545
-      },
-      {
-        "name": "Nethermind xDai JSON RPC (WS)",
-        "description": "JSON RPC WebSocket endpoint for Nethermind xDai",
-        "serviceName": "nethermind",
-        "port": 8546
-      }
-    ],
+    {
+      "name": "Nethermind xDai JSON RPC",
+      "description": "JSON RPC endpoint for Nethermind xDai",
+      "serviceName": "nethermind",
+      "port": 8545
+    },
+    {
+      "name": "Nethermind xDai JSON RPC (WS)",
+      "description": "JSON RPC WebSocket endpoint for Nethermind xDai",
+      "serviceName": "nethermind",
+      "port": 8546
+    }
+  ],
   "upstreamRepo": "NethermindEth/nethermind",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Blockchain"],
