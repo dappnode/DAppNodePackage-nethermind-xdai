@@ -9,9 +9,7 @@
   "dependencies": {},
   "chain": "ethereum",
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
-  "contributors": [
-    "mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"
-  ],
+  "contributors": ["mgarciate <mgarciate@gmail.com> (https://github.com/mgarciate)"],
   "exposable": [
     {
       "name": "Nethermind xDai JSON RPC",
@@ -43,5 +41,11 @@
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai/issues"
   },
-  "license": "LGPL-3.0"
+  "license": "LGPL-3.0",
+  "globalEnvs": [
+    {
+      "envs": ["CONSENSUS_CLIENT_GNOSIS"],
+      "services": ["nethermind-xdai.dnp.dappnode.eth"]
+    }
+  ]
 }
