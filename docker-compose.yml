@@ -1,8 +1,8 @@
 version: "3.4"
 services:
-  nethermind-xdai.dnp.dappnode.eth:
+  nethermind:
     build:
-      context: ./build
+      context: .
       args:
         UPSTREAM_VERSION: 1.14.5
     image: "nethermind-xdai.dnp.dappnode.eth:1.0.0"
