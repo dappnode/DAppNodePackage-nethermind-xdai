@@ -1,6 +1,6 @@
 # Nethermind - Gnosis (Execution Client)
 
-Welcome to the Merged Mainnet Nethermind Execution Client.
+Welcome to the Nethermind Gnosis Chain Execution Client.
 
 There are now two RPC APIs in Execution Clients:
 
