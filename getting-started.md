@@ -1,4 +1,4 @@
-# Nethermind - Gnosis (Execution Client)
+# Nethermind - Gnosis Chain (Execution Client)
 
 Welcome to the Nethermind Gnosis Chain Execution Client.
 
