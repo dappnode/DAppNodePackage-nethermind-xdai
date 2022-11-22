@@ -1,10 +1,10 @@
 version: "3.4"
 services:
-  nethermind-xdai.dnp.dappnode.eth:
+  nethermind:
     build:
-      context: ./build
+      context: .
       args:
-        UPSTREAM_VERSION: 1.14.5
+        UPSTREAM_VERSION: 1.14.6
     image: "nethermind-xdai.dnp.dappnode.eth:1.0.0"
     restart: unless-stopped
     security_opt:
@@ -19,6 +19,8 @@ services:
       NETHERMIND_INITCONFIG_WEBSOCKETSENABLED: "true"
       NETHERMIND_NETWORKCONFIG_DISCOVERYPORT: 31404
       NETHERMIND_NETWORKCONFIG_P2PPORT: 31404
+      NETHERMIND_JSONRPCCONFIG_ENGINEHOST: 0.0.0.0
+      NETHERMIND_JSONRPCCONFIG_ENGINEPORT: 8551
       EXTRA_OPTS: ""
     ports:
       - "31404:31404/tcp"
