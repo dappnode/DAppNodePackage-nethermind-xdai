@@ -1,7 +1,7 @@
 {
   "name": "nethermind-xdai.dnp.dappnode.eth",
   "version": "1.0.0",
-  "upstreamVersion": "1.14.6",
+  "upstreamVersion": "1.14.5",
   "shortDescription": "Nethermind xDai client",
   "description": "Nethermind - The world’s fastest xDai .NET Client and P2P Data Marketplace for the decentralised future\nOur flagship .NET Core-based xDai client is all about performance and flexibility. We have built a lean, stable and feature-rich gateway to allow anyone, anywhere, to take part in the decentralised future.",
   "type": "service",
@@ -38,16 +38,10 @@
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai.git"
   },
   "requirements": {
-    "minimumDappnodeVersion": "0.2.62"
+    "minimumDappnodeVersion": "0.2.56"
   },
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai/issues"
   },
-  "license": "LGPL-3.0",
-  "globalEnvs": [
-    {
-      "envs": ["CONSENSUS_CLIENT_GNOSIS"],
-      "services": ["nethermind"]
-    }
-  ]
+  "license": "LGPL-3.0"
 }
