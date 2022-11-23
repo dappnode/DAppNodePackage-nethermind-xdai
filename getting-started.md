@@ -1,10 +1,7 @@
-# Nethermind - Gnosis Chain (Execution Client)
+### Welcome, nodler!
 
-Welcome to the Nethermind Gnosis Chain Execution Client.
+This is your Nethermind xDai node. You are now supporting the Gnosis Chain network by running a full node. 
 
-There are now two RPC APIs in Execution Clients:
-
-1. Querying API `http://nethermind-xdai.dappnode:8545`. Use this endpoint to query transactions on your node and connect to it with your web3 wallet.
-2. Engine API `http://nethermind-xdai.dappnode:8551`. Use this endpoint to connect your Beacon Chain (Consensus Layer) client.
-
-If your Execution Client is not connected to a Consensus Layer client, you won't be able to use it to query the blockchain, nor will you be able to connect your wallet to it!
+* If you want to learn more on how Nethermind is built and why, please check their website: [nethermind.io](https://nethermind.io/)
+* Join their community in [Gitter](https://gitter.im/nethermindeth/nethermind)
+* And of course, make sure you join our DAppNode community in our [Forum](https://forum.dappnode.io) or [Discord](https://discord.dappnode.io)
