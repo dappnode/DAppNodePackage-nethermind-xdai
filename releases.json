@@ -193,5 +193,11 @@
     "uploadedTo": {
       "remote": "Sun, 25 Jul 2021 16:02:22 GMT"
     }
+  },
+  "1.0.0": {
+    "hash": "/ipfs/QmbFR7rstU9kyP2UEVpnrxLEBn7VHFemDv5xoaAMpg2dEq",
+    "uploadedTo": {
+      "http://172.33.1.5:5001": "Thu, 24 Nov 2022 11:44:19 GMT"
+    }
   }
 }
