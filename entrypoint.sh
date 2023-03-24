@@ -9,7 +9,7 @@ case "$_DAPPNODE_GLOBAL_CONSENSUS_CLIENT_GNOSIS" in
   echo "Using lighthouse-gnosis.dnp.dappnode.eth"
   JWT_PATH="/security/lighthouse/jwtsecret.hex"
   ;;
-"lodestar-gnosis.dnp.eth")
+"lodestar-gnosis.dnp.dappnode.eth")
   echo "Using lodestar-gnosis.dnp.dappnode.eth"
   JWT_PATH-"/security/lodestar/jwtsecret.hex"
   ;;
