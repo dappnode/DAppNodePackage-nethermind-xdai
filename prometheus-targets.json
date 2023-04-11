@@ -5,7 +5,7 @@
             "service": "nethermind-xdai.dappnode"
         },
         "targets": [
-            "nethermind-xdai.dappnode:8008"
+            "nethermind-xdai.dappnode:6060"
         ]
     }
 ]
