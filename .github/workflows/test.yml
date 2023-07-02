@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build test
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: docker-compose build
       
   e2e-test:
@@ -17,7 +17,7 @@ jobs:
     needs: build-test
     name: End to end tests
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: npx @dappnode/dappnodesdk@latest github-action test-end-to-end --errorLogsTimeout 120 --healthCheckUrl http://nethermind-xdai.dappnode:8545/ --network gnosis
         env:
           VALIDATOR_INDEX: ${{ secrets.GNOSIS_VALIDATOR_INDEX }}
