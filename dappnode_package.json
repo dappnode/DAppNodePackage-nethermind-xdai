@@ -1,7 +1,7 @@
 {
   "name": "nethermind-xdai.dnp.dappnode.eth",
-  "version": "1.0.34",
-  "upstreamVersion": "1.19.3",
+  "version": "1.0.35",
+  "upstreamVersion": "1.20.0",
   "shortDescription": "Nethermind xDai client",
   "description": "Nethermind - The world’s fastest xDai .NET Client and P2P Data Marketplace for the decentralised future\nOur flagship .NET Core-based xDai client is all about performance and flexibility. We have built a lean, stable and feature-rich gateway to allow anyone, anywhere, to take part in the decentralised future.",
   "type": "service",
