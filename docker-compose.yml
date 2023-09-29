@@ -12,7 +12,6 @@ services:
     volumes:
       - "data:/data"
     environment:
-      NETHERMIND_CONFIG: gnosis
       NETHERMIND_JSONRPCCONFIG_ENABLED: "true"
       EXTRA_OPTS: ""
     ports:

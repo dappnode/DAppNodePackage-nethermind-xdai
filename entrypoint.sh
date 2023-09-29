@@ -39,6 +39,7 @@ else
 fi
 
 exec /nethermind/nethermind \
+  --config gnosis \
   --Sync.FastSync=true \
   --JsonRpc.Enabled=true \
   --JsonRpc.JwtSecretFile=${JWT_PATH} \
