@@ -4,19 +4,19 @@ services:
     build:
       context: .
       args:
-        UPSTREAM_VERSION: 1.25.4
-    image: "nethermind.nethermind-xdai.dnp.dappnode.eth:1.0.0"
+        UPSTREAM_VERSION: 1.26.0
+    image: nethermind.nethermind-xdai.dnp.dappnode.eth:1.0.0
     restart: unless-stopped
     security_opt:
-      - "seccomp:unconfined"
+      - seccomp:unconfined
     volumes:
-      - "data:/data"
+      - data:/data
     environment:
       NETHERMIND_JSONRPCCONFIG_ENABLED: "true"
       EXTRA_OPTS: ""
     ports:
-      - "31404:31404/tcp"
-      - "31404:31404/udp"
+      - 31404:31404/tcp
+      - 31404:31404/udp
     ulimits:
       nofile:
         soft: 1000000
