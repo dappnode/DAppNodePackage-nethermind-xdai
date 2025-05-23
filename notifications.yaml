@@ -1,0 +1,55 @@
+endpoints:
+  - name: "Gnosis ETH Node Syncing Check"
+    enabled: true
+    group: "gnosis"
+    url: "http://nethermind-xdai.dappnode:8545"
+    method: "POST"
+    body: |
+      {"jsonrpc": "2.0", "id": 1, "method": "eth_syncing", "params": []}
+    headers:
+      Content-Type: "application/json"
+    interval: "30s"
+    conditions:
+      - "[BODY].result == false"
+    definition:
+      title: "Gnosis Node Synced Check"
+      description: "Check if the Gnosis ETH Node is synced. You will receive a notification if the node is syncing and another one when it is synced."
+    correlationId: "gnosis-nethermind-eth-syncing"
+    isBanner: false
+    priority: "medium"
+    alerts:
+      - type: custom
+        enabled: true
+        description: "Nethermind Gnosis Node syncing"
+        failure-threshold: 4
+        success-threshold: 1
+        send-on-resolved: true
+  - name: "Gnosis Node Peers count Check"
+    enabled: true
+    group: "gnosis"
+    url: "http://nethermind-xdai.dappnode:8545"
+    method: "POST"
+    body: |
+      {"jsonrpc": "2.0", "id": 1, "method": "net_peerCount", "params": []}
+    headers:
+      Content-Type: "application/json"
+    interval: "30s"
+    conditions:
+      - "[BODY].result >= 10"
+    definition:
+      title: "Gnosis Node Peers count Check"
+      description: "Check if the Gnosis Node has a minimum of peers. You will receive a notification if the node has less than the peers defined for 5 minutes and another one when it has more than the peers defined."
+    correlationId: "gnosis-nethermind-eth-peers"
+    isBanner: false
+    priority: "low"
+    metric:
+      min: 0
+      max: 50
+      unit: "peers"
+    alerts:
+      - type: custom
+        enabled: true
+        description: "Nethermind Gnosis Node peers count"
+        failure-threshold: 10
+        success-threshold: 1
+        send-on-resolved: true
