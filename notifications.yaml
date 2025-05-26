@@ -49,7 +49,7 @@ endpoints:
     alerts:
       - type: custom
         enabled: true
-        description: "Nethermind Gnosis Node peers count"
+        description: "Nethermind Gnosis Node peers count is below [CONDITION_VALUE]"
         failure-threshold: 10
         success-threshold: 1
         send-on-resolved: true
