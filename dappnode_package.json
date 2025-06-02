@@ -39,7 +39,7 @@
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai.git"
   },
   "requirements": {
-    "minimumDappnodeVersion": "0.2.64"
+    "minimumDappnodeVersion": "0.2.106"
   },
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-nethermind-xdai/issues"
