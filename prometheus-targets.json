@@ -1,0 +1,11 @@
+[
+    {
+        "labels": {
+            "package": "nethermind-xdai.dnp.dappnode.eth",
+            "service": "nethermind-xdai.dappnode"
+        },
+        "targets": [
+            "nethermind-xdai.dappnode:6060"
+        ]
+    }
+]
